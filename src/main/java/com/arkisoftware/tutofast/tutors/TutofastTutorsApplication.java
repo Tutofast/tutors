@@ -1,4 +1,4 @@
-package com.arkisoftware.tutofasttutors;
+package com.arkisoftware.tutofast.tutors;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

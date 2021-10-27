@@ -1,4 +1,4 @@
-package com.arkisoftware.tutofasttutors;
+package com.arkisoftware.tutofast;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
