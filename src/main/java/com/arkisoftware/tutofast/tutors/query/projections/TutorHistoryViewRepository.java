@@ -13,5 +13,5 @@ public interface TutorHistoryViewRepository extends JpaRepository<TutorHistoryVi
     Optional<TutorHistoryView> getLastByTutorId(String tutorId);
 
     @Query(value = "SELECT * FROM tutor_history_view WHERE tutor_id = :tutorId ORDER BY created_at", nativeQuery = true)
-    List<TutorHistoryView> getHistoryByCustomerId(String tutorId);
+    List<TutorHistoryView> getHistoryByTutorId(String tutorId);
 }

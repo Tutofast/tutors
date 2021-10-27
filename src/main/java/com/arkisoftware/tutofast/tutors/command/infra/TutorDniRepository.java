@@ -8,6 +8,6 @@ import java.util.Optional;
 public interface TutorDniRepository extends JpaRepository<TutorDni, String> {
     Optional<TutorDni> getDniByTutorId(String tutorId);
 
-    @Query(value = "SELECT * FROM tutor_id WHERE customer_id <> :tutorId AND dni = :dni LIMIT 1", nativeQuery = true)
-    Optional<TutorDni> getByDniForDistinctCustomerId(String dni, String tutorId);
+    @Query(value = "SELECT * FROM tutor_id WHERE tutor_id <> :tutorId AND dni = :dni LIMIT 1", nativeQuery = true)
+    Optional<TutorDni> getByDniForDistinctTutorId(String dni, String tutorId);
 }
