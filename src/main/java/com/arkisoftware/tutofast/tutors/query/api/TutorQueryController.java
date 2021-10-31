@@ -7,7 +7,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import pe.edu.upc.banking.common.api.ApiController;
+import org.arkisoftware.tutofast.common.api.ApiController;
 
 import java.util.List;
 import java.util.Optional;
