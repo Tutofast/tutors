@@ -12,9 +12,10 @@ import org.axonframework.modelling.command.AggregateNotFoundException;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import pe.edu.upc.banking.common.api.ApiController;
-import pe.edu.upc.banking.common.application.Notification;
-import pe.edu.upc.banking.common.application.Result;
+
+import org.arkisoftware.tutofast.common.api.ApiController;
+import org.arkisoftware.tutofast.common.application.Notification;
+import org.arkisoftware.tutofast.common.application.Result;
 
 @RestController
 @RequestMapping("/tutors")

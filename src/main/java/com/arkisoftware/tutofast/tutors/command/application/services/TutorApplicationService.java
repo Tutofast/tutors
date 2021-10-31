@@ -11,9 +11,9 @@ import com.arkisoftware.tutofast.tutors.command.application.validators.RegisterT
 import com.arkisoftware.tutofast.tutors.contracts.commands.RegisterTutor;
 import com.arkisoftware.tutofast.tutors.contracts.commands.EditTutor;
 
-import pe.edu.upc.banking.common.application.Notification;
-import pe.edu.upc.banking.common.application.Result;
-import pe.edu.upc.banking.common.application.ResultType;
+import org.arkisoftware.tutofast.common.application.Notification;
+import org.arkisoftware.tutofast.common.application.Result;
+import org.arkisoftware.tutofast.common.application.ResultType;
 
 import com.arkisoftware.tutofast.tutors.command.infra.TutorDniRepository;
 import org.axonframework.commandhandling.gateway.CommandGateway;

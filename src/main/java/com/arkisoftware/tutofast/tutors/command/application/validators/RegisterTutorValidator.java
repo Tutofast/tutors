@@ -4,7 +4,7 @@ import com.arkisoftware.tutofast.tutors.command.application.dtos.request.Registe
 import com.arkisoftware.tutofast.tutors.command.infra.TutorDni;
 import com.arkisoftware.tutofast.tutors.command.infra.TutorDniRepository;
 import org.springframework.stereotype.Component;
-import pe.edu.upc.banking.common.application.Notification;
+import org.arkisoftware.tutofast.common.application.Notification;
 
 import java.util.Optional;
 

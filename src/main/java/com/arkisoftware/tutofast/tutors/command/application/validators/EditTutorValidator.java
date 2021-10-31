@@ -9,7 +9,7 @@ import org.axonframework.messaging.unitofwork.UnitOfWork;
 import org.axonframework.modelling.command.AggregateNotFoundException;
 import org.springframework.stereotype.Component;
 import org.axonframework.modelling.command.Repository;
-import pe.edu.upc.banking.common.application.Notification;
+import org.arkisoftware.tutofast.common.application.Notification;
 
 import java.util.Optional;
 
