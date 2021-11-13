@@ -13,9 +13,9 @@ import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import org.arkisoftware.tutofast.common.api.ApiController;
-import org.arkisoftware.tutofast.common.application.Notification;
-import org.arkisoftware.tutofast.common.application.Result;
+import com.arkisoftware.tutofast.tutors.common.api.ApiController;
+import com.arkisoftware.tutofast.tutors.common.application.Notification;
+import com.arkisoftware.tutofast.tutors.common.application.Result;
 
 @RestController
 @RequestMapping("/tutors")
