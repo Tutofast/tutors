@@ -1,10 +1,10 @@
 package com.arkisoftware.tutofast.tutors.command.application.validators;
 
+import com.arkisoftware.tutofast.tutors.application.Notification;
 import com.arkisoftware.tutofast.tutors.command.application.dtos.request.RegisterTutorRequest;
 import com.arkisoftware.tutofast.tutors.command.infra.TutorDni;
 import com.arkisoftware.tutofast.tutors.command.infra.TutorDniRepository;
 import org.springframework.stereotype.Component;
-import com.arkisoftware.tutofast.tutors.common.application.Notification;
 
 import java.util.Optional;
 

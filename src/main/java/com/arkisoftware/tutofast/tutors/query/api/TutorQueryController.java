@@ -1,5 +1,6 @@
 package com.arkisoftware.tutofast.tutors.query.api;
 
+import com.arkisoftware.tutofast.tutors.api.ApiController;
 import com.arkisoftware.tutofast.tutors.query.projections.*;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -7,7 +8,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import com.arkisoftware.tutofast.tutors.common.api.ApiController;
 
 import java.util.List;
 import java.util.Optional;

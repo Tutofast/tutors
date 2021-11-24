@@ -1,5 +1,8 @@
 package com.arkisoftware.tutofast.tutors.command.api;
 
+import com.arkisoftware.tutofast.tutors.api.ApiController;
+import com.arkisoftware.tutofast.tutors.application.Notification;
+import com.arkisoftware.tutofast.tutors.application.Result;
 import com.arkisoftware.tutofast.tutors.command.application.dtos.request.EditTutorRequest;
 import com.arkisoftware.tutofast.tutors.command.application.dtos.request.RegisterTutorRequest;
 import com.arkisoftware.tutofast.tutors.command.application.dtos.response.EditTutorResponse;
@@ -12,10 +15,6 @@ import org.axonframework.modelling.command.AggregateNotFoundException;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
-import com.arkisoftware.tutofast.tutors.common.api.ApiController;
-import com.arkisoftware.tutofast.tutors.common.application.Notification;
-import com.arkisoftware.tutofast.tutors.common.application.Result;
 
 @RestController
 @RequestMapping("/tutors")
